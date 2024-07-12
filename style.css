@@ -28,6 +28,7 @@ img {
     background: #222222;
     padding-left: 231px;
     padding-right: 240px;
+    position: relative;
 }
 
 .header__nav button {
@@ -50,6 +51,49 @@ img {
     gap: 33px;
     padding-top: 26px;
     padding-bottom: 20px;
+}
+
+.header__nav__burgermenu {
+    display: block;
+    position: absolute;
+    top: 75px;
+    right: 0;
+    background: #fff;
+    padding-left: 33px;
+    padding-right: 74px;
+    box-shadow: -4px 13px 30px -9px rgba(34, 60, 80, 0.2);
+    z-index: 20000;
+}
+
+.hidden__burgermenu {
+    display: none;
+}
+
+.header__nav__burgermenu h1 {
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 24px;
+    padding-top: 32px;
+}
+
+.header__nav__burgermenu h2 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #F16D7F;
+    padding-bottom: 12px;
+}
+
+.header__nav__burgermenu ul {
+    padding-bottom: 20px;
+}
+
+.header__nav__burgermenu li {
+    list-style-type: none;
+    padding-left: 23px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    cursor: pointer;
 }
 
 .basket__count {
